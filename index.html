@@ -14,7 +14,11 @@
     <main class="main__content">
       <section class="container">
         <div id="clock"></div>
-        <input name="alarmTime" type="datetime-local" />
+        <input
+          name="alarmTime"
+          onchange="setAlarmTime(this.value)"
+          type="datetime-local"
+        />
         <div class="controls">
           <button class="button set-alarm">Régler l'alarme</button>
           <button class="button clear-alarm">Arrêter l'alarme</button>
