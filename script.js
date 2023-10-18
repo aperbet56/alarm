@@ -29,7 +29,7 @@ const updateTime = () => {
   displayTime.textContent = `${hour} : ${minutes} : ${seconds}`;
 };
 
-// Déclaration de la fonction formatTime qui va définir le format de l'heure
+// Déclaration de la fonction formatTime qui va définir le format de l'heure, des minutes et des secondes
 const formatTime = (time) => {
   if (time < 10) {
     return "0" + time;
@@ -43,7 +43,7 @@ const setAlarmTime = (value) => {
   alarmTime = value;
 };
 
-// Déclaration de la fonction setAlarm qui permet de régler l'alarm
+// Déclaration de la fonction setAlarm qui permet de régler l'alarme
 const setAlarm = () => {
   if (alarmTime) {
     const current = new Date();
