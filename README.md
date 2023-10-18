@@ -12,7 +12,7 @@ Mon but a été d'élaborer un site permettant à un utilisateur de régler une 
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/alarm/
 
 ## Développez avec
 
