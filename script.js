@@ -68,7 +68,7 @@ const clearAlarm = () => {
   }
 };
 
-// Mise à jour de 'laffichage du temps toutes les 1000ms soit toute les seconde
+// Mise à jour de 'laffichage du temps toutes les 1000ms soit toutes les secondes
 setInterval(updateTime, 1000);
 
 // Ecoute de l'événement "click" sur le bouton "Régler l'alarme" et appel de la fonction setAlarm
